@@ -1,5 +1,5 @@
 
-directory default['timecard']['install_location'] do
+directory node['install_location'] do
   owner 'deploy'
   group 'deploy'
   mode 00744
