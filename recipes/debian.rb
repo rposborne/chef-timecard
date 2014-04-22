@@ -4,4 +4,5 @@ directory node['install_location'] do
   group 'deploy'
   mode 00744
   action :create
+  recursive :true
 end
