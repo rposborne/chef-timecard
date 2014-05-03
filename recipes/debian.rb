@@ -2,7 +2,7 @@
 directory node['install_location'] do
   owner 'deploy'
   group 'deploy'
-  mode 2755
+  mode 06744
   action :create
   recursive true
 end
@@ -10,7 +10,7 @@ end
 directory node['install_location'] + '/releases' do
   owner 'deploy'
   group 'deploy'
-  mode 2755
+  mode 06744
   action :create
   recursive true
 end
@@ -18,7 +18,7 @@ end
 directory node['install_location'] + '/shared' do
   owner 'deploy'
   group 'deploy'
-  mode 2755
+  mode 06744
   action :create
   recursive true
 end
