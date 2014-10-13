@@ -1,3 +1,4 @@
+include_recipe "user"
 
 user_account 'deploy' do
   create_group true
