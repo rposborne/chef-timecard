@@ -1,6 +1,6 @@
 # Description
 
-chef cookbook that installs Microsoft Corefonts.
+chef cookbook that installs Burningpony's Timecard Applications
 
 * [en.wikipedia.org/wiki/Core_fonts_for_the_Web](http://en.wikipedia.org/wiki/Core_fonts_for_the_Web)
 * [corefonts.sourceforge.net](http://corefonts.sourceforge.net/)
@@ -15,7 +15,7 @@ chef cookbook that installs Microsoft Corefonts.
 
 # License
 
-Copyright 2012 Frank Hoffsümmer
+Copyright 2014 Burningpony
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
